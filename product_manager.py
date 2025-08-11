@@ -5,9 +5,9 @@
 # Afișarea tuturor produselor.
 # Afișarea valorii totale a tuturor produselor.
 
-from Product import *
 
-class ProductManager(Product):
+
+class ProductManager():
     def __init__(self):
         self.products = []
     

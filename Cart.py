@@ -24,8 +24,8 @@ class Cart():
     
     def __str__(self):
         if not self.cart_items:
-            return "Coșul este gol."
-        result = "Produsele din coș:\n"
+            return "Empty cart."
+        result = "The product in your cart : \n"
         for produs in self.cart_items:
             result += f"- {produs.name}: Quantity {produs.quantity}, Price {produs.price} RON\n"
         return result
