@@ -25,3 +25,7 @@ class ProductManager(Product):
     def total(self):
         return sum(product.price*product.quantity for product in self.products)
     
+    def remove(self,our_name):
+        for product in self.products:
+            if product.name == our_name:
+                self.products.remove(product) 

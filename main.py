@@ -16,6 +16,10 @@ def main():
     our_list.display_info()
     print(f'Inventory total cost : {our_list.total()} Ron')
 
+    our_list.remove('Scaun')
+    our_list.display_info()
+
+
 if __name__ == '__main__':
     main()
     
