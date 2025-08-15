@@ -5,3 +5,4 @@ config.json
 *.JSON
 __pycache__/
 *.pyc
+*.rar 
